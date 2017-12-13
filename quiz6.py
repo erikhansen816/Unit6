@@ -21,14 +21,12 @@ for word in dictionary:
 print(total)
 """
 
-Program 3
+#Program 3
 dictionary = open('engmix.txt')
-number = input('Enter a number between 1 and 22: ')
-total = 0
-while total <= 1
-    for word in dictionary:
-        if word != '':
-            if len(word) == number:
-                total += 1
-                print(word)
+number = int(input('Enter a number between 1 and 22: '))
+for word in dictionary:
+    if word != '':
+        if len(word) == number+1:
+            print(word)
+            break
             
