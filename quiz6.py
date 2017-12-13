@@ -31,7 +31,7 @@ for word in dictionary:
             break
 """
 
-#Program 4
+"""Program 4
 dictionary = open('engmix.txt')
 letter = input('Enter a letter: ')
 total = 0
@@ -39,4 +39,13 @@ for word in dictionary:
     if word != '':
         if letter not in word:
             total += 1
-print(total)
+print(total)"""
+
+"""Program 5
+dictionary = open('engmix.txt')
+L = []
+for word in dictionary:
+    if word != '':
+        L.append(word.strip())
+leng = len(L)
+print(L[leng//2])"""
